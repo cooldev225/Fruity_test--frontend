@@ -1,12 +1,14 @@
 export interface Fruit {
-    carbohydrade: number;
+    id: number;
+    carbohydrates: number;
     genus: string;
     protein: number;
     name: string;
     fat: number;
     calories: number;
-    id: number;
     family: string;
     sugar: number;
-    order: number;
+    isFavorite: number;
+    fruitId: number;
+    fruitOrder: string;
 }
