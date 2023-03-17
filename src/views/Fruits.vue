@@ -1,5 +1,5 @@
 <template>
-  <div class="table-header" style="display: flexjustify-content: space-between">
+  <div class="table-header" style="display: flex; justify-content: space-between; margin-bottom: 20px">
     <el-pagination
       background
       layout="prev, pager, next"
